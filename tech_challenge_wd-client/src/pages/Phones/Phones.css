@@ -1,5 +1,26 @@
-.list
-
-.list img{
-  width: 10vw;
+.list{
+  display: flex;
+  margin: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.phone {
+  margin: 1rem;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  box-shadow: 10px 10px 5px lightgrey;  
+  width: 15rem;
+  padding-bottom: 2rem;
+}
+
+.phone h3{
+  color: black;
+}
+
+.phone img{
+  height: 10rem;
+}
+
+

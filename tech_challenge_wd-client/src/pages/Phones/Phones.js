@@ -20,14 +20,15 @@ function Phones() {
           <p>loading....</p>
         </>
       ) : (
-        <div>
+        <div className="list">
           {phones?.map((phone) => {
             return (
-              <div key={phone.id} className="list">
-                <img src={`../../${phone.imageFileName}`} alt="phone" />
-                <h3>{phone.name}</h3>
-                <NavLink to={`/phones/${phone.id}`}>More details</NavLink>
-              </div>
+              <NavLink to={`/phones/${phone.id}`}>
+                <div key={phone.id} className="phone">
+                  <img src={`../../${phone.imageFileName}`} alt="phone" />
+                  <h3>{phone.name}</h3>
+                </div>
+              </NavLink>
             );
           })}
         </div>

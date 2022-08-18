@@ -1,0 +1,11 @@
+.link{
+text-decoration: none;
+color: white;
+margin: 0 2rem;
+}
+
+
+.navbar{
+    background-color: rgb(71, 71, 160);
+    padding: 1rem;
+}

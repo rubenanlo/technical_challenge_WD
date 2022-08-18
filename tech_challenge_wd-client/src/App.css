@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@100;300&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
   text-align: center;
 }

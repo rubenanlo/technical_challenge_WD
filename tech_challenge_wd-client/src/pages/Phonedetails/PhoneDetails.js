@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "./PhoneDetails.css";
 
 function PhoneDetails() {
   const [phone, setPhone] = useState("");
@@ -23,16 +24,16 @@ function PhoneDetails() {
           <p>loading....</p>
         </>
       ) : (
-        <div>
+        <div className="phone-all-details">
           <img src={`../../${phone.imageFileName}`} alt="phone" />
-          <p>{phone.name}</p>
-          <p>{phone.manufacturer}</p>
-          <p>{phone.price}</p>
-          <p>{phone.color}</p>
-          <p>{phone.screen}</p>
-          <p>{phone.processor}</p>
-          <p>{phone.ram}</p>
-          <p>{phone.description}</p>
+          <h1>{phone.name}</h1>
+          <p>Brand: {phone.manufacturer}</p>
+          <p>Price: {phone.price}</p>
+          <p>Color: {phone.color}</p>
+          <p>Screen: {phone.screen}</p>
+          <p>Processor: {phone.processor}</p>
+          <p>RAM: {phone.ram}</p>
+          <p> {phone.description}</p>
         </div>
       )}
     </>

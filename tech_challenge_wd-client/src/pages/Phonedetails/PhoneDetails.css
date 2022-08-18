@@ -1,0 +1,11 @@
+.phone-all-details{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30rem;
+    
+}
+
+.phone-all-details img{
+    width: 40vw;
+}

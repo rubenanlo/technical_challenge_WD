@@ -1,0 +1,14 @@
+.homepage{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+    .all-page{
+        background-image: url("https://cdn.dribbble.com/users/32512/screenshots/6807065/phone_bg_motion_by_milkinside7_1.png?compress=1&resize=400x300");
+        background-size: cover;
+        height: 100%
+
+    }
